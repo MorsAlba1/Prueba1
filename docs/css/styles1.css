@@ -1,0 +1,78 @@
+/* Estilos para index.html */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #040404; /* Fondo oscuro para representar el espacio */
+    color: #ffffff; /* Texto blanco */
+}
+
+header {
+    background-color: #0a0a0a; /* Gris oscuro para el encabezado */
+    color: #4e4e4e; /* Texto gris */
+    padding: 15px;
+    text-align: center;
+}
+
+nav {
+    background-color: #111111; /* Negro para el menÃº de navegaciÃ³n */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    border-radius: 5px;
+    background-color: #1e1e1e; /* Gris mÃ¡s oscuro para los botones */
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #333333; /* Gris mÃ¡s claro al pasar el ratÃ³n */
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #1e1e1e;
+    min-width: 160px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #333333;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #1e1e1e; /* Gris oscuro para la secciÃ³n de contenido */
+    border-radius: 5px;
+    overflow: auto; /* Evitar que el contenido se salga del recuadro */
+}
+
+footer {
+    background-color: #0a0a0a; /* Gris oscuro para el pie de pÃ¡gina */
+    color: #4e4e4e; /* Texto gris en el pie de pÃ¡gina */
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+

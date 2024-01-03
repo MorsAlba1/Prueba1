@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PÃ¡gina de Inicio</title>
+  <style>
+    #textoRedirigir {
+      color: blue;
+      text-decoration: underline;
+    }
+  </style>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Bienvenido a mi PÃ¡gina Web</h1>
+    <p>Explora y descubre contenido interesante.</p>
+    <p id="textoRedirigir">Presiona aquÃ­ para ir a otra pÃ¡gina</p>
+  </div>
+  <script src="scripts/scripts.js"></script>
+  <script>
+    document.getElementById('textoRedirigir').addEventListener('click', function() {
+      window.location.href = 'backup/index1.html';
+    });
+  </script>
+</body>
+</html>

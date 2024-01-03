@@ -1,0 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #040404; /* Fondo oscuro para representar el espacio */
+  color: #ffffff; /* Texto blanco */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Ajusta la altura al 100% de la ventana */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center; /* Centra horizontalmente el contenido de la lista */
+}
+
+marquee {
+  /* Ajusta el margen segÃºn sea necesario */
+  margin: 20px;
+}
+
